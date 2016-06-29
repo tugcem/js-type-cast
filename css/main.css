@@ -1,0 +1,148 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   html, body {
+    height: 100%;
+   }
+   body {
+       font: 20px Montserrat, sans-serif;
+       line-height: 1.8;
+       color: #f5f6f7;
+       padding-left: 8%;
+       padding-right: 8%;
+   }
+   p {
+    font-size: 16px;
+    letter-spacing: 0.3px;
+  }
+
+   input,
+   input:focus,
+   button,
+   button:focus,
+   a,
+   a:focus {
+      border-color: #18bc9c !important;
+      outline: none !important;
+      box-shadow: none !important;
+   }
+   .search-section{
+    height: 50%;
+   }
+   .margin {
+     margin-bottom: 8%;
+   }
+   .top-buffer {
+    margin-top: 3%;
+   }
+   .bg-1 {
+       background-color: #18bc9c; /* Green */
+       color: #ffffff;
+   }
+   .bg-2 {
+       background-color: #2c3e50; /* Dark Blue */
+       color: #ffffff;
+   }
+   .bg-3 {
+       background-color: #ecebeb; /* White */
+       color: #2c3e50;
+   }
+   .bg-4 {
+       background-color: #2f2f2f; /* Black Gray */
+       color: #fff;
+   }
+   .container-fluid {
+       padding-top: 4%;
+       padding-bottom: 4%;
+   }
+   .navbar {
+       padding-top: 15px;
+       padding-bottom: 15px;
+       border: 0;
+       border-radius: 0;
+       margin-bottom: 0;
+       font-size: 12px;
+       letter-spacing: 5px;
+   }
+   .navbar-nav  li a:hover {
+       color: #1abc9c !important;
+   }
+
+   .name {
+       display: block;
+       text-transform: uppercase;
+       font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+       font-size: 2.0em;
+       font-weight: 700;
+   }
+
+    .skills {
+       font-size: 1em;
+       font-weight: 300;
+   }
+
+   @media(min-width:768px) {
+       body {
+       }
+       .container {
+           padding-top: 80px;
+           padding-bottom: 80px;
+       }
+
+       .name {
+           font-size: 2.5em;
+       }
+
+       .skills {
+           font-size: 1em;
+       }
+   }
+
+   @media (min-width: 992px) {
+       .name {
+           font-size: 3.0em;
+       }
+   }
+   .btn-success {
+    background-image: linear-gradient(to bottom,#18bc9c 0,#18bc9c 100%);
+   }
+   .btn-success,
+   .btn-success:hover,
+   .btn-success:focus,
+   .btn-success:active,
+   .btn-success:active.focus,
+   .btn-success:active:focus,
+   .btn-success:active:hover,
+   .btn-success.active,
+   .btn-success.active.focus,
+   .btn-success.active:focus,
+   .btn-success.active:hover,
+   .open > .dropdown-toggle.btn-success,
+   .open > .dropdown-toggle.btn-success.focus,
+   .open > .dropdown-toggle.btn-success:focus,
+   .open > .dropdown-toggle.btn-success:hover,
+   .open > .dropdown-toggle.btn-success:active
+           {
+       background-color: #18bc9c;
+       border-color: #18bc9c;
+   }
+  #result {
+    font-family: Hack, monospace;
+  }
+  .hack {
+    font-family: Hack, monospace;
+    font-weight: 400px;
+  }
+
+
+
+
+
+
+
+
+
+
