@@ -6,19 +6,21 @@
 
    html, body {
     height: 100%;
+    overflow: hidden;
+
    }
    body {
-       font: 20px Montserrat, sans-serif;
-       line-height: 1.8;
-       color: #f5f6f7;
-       padding-left: 8%;
-       padding-right: 8%;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
    }
    p {
     font-size: 16px;
     letter-spacing: 0.3px;
   }
-
+  a {
+    color: #333;
+  }
    input,
    input:focus,
    button,
@@ -29,8 +31,22 @@
       outline: none !important;
       box-shadow: none !important;
    }
-   .search-section{
+   .main-container::-webkit-scrollbar {
+      display: block;
+    }
+   .main-container {
+    overflow: auto;
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    bottom: 0;
+    top: 0;
+   }
+   .sample-section{
     height: 50%;
+   }
+   .last-section {
+    overflow-y: auto;
    }
    .margin {
      margin-bottom: 8%;
@@ -105,6 +121,11 @@
        .name {
            font-size: 3.0em;
        }
+   }
+
+   .btn-social-icon {
+    font-size: 200%;
+    border: none;
    }
    .btn-success {
     background-image: linear-gradient(to bottom,#18bc9c 0,#18bc9c 100%);
